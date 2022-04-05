@@ -1,0 +1,83 @@
+/* .myrow1 {
+  background-color: rgb(240, 239, 239);
+}
+
+.myborder {
+  margin-top: 9px;
+  border: 2px solid red;
+}
+.mybutton {
+  border-radius: 45px !important;
+}
+.myrow2 .cards {
+  padding: 20px;
+  display: flex !important;
+  border: 2px solid gray;
+  justify-content: space-evenly;
+}
+.myrow2 .cards .red {
+  color: red;
+}
+
+.myrow2 .cards .green {
+  color: green;
+} */
+
+.container {
+  width: 85%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.container .row {
+  width: 25%;
+  height: 500px;
+  display: inline-block;
+}
+.container .row .card {
+  height: 100%;
+  margin-left: 10px;
+}
+.card img {
+  width: 100%;
+  height: 300px;
+}
+.card-body {
+  text-align: center;
+}
+@media only screen and (max-width: 920px) {
+  .container {
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: lightblue;
+  }
+  .container .row {
+    width: 33%;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .container {
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: lightblue;
+  }
+  .container .row {
+    width: 50%;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .container {
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: lightblue;
+  }
+  .container .row {
+    width: 100%;
+    display: inline-block;
+  }
+}
