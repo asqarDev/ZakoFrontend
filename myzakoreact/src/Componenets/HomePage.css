@@ -7,7 +7,7 @@
 .col {
   width: 400px;
   height: 400px;
-  background-color: rgb(131, 131, 218);
+  /* background-color: rgb(131, 131, 218); */
   border-radius: 10%;
   display: flex;
   justify-content: center;

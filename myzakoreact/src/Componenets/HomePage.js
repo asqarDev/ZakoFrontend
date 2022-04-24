@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./HomePage.css";
+// import "./HomePage.css";
 import globs from "./../img/pexels-pixabay-302743.jpg";
 import { Button, Card, Container, Row } from "react-bootstrap";
 export default class HomePage extends Component {

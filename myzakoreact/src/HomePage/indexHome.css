@@ -1,0 +1,36 @@
+.card,
+.card-header,
+.card-body,
+.card-footer {
+  border: none !important;
+  transition: linear 0.5s;
+}
+.card {
+  width: 90%;
+  height: 400px !important;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.mydiv {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid grey;
+  border-radius: 12px;
+  transition: 0.5s linear;
+}
+.mydiv:hover {
+  background-color: rgb(173, 170, 170);
+  cursor: pointer;
+}
+.mydiv img {
+  transition: 0.5s linear;
+}
+.mydiv:hover img {
+  transform: scale(1.3);
+}
